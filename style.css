@@ -1,6 +1,6 @@
 :root{
-    --background: #A5B68D;
-    --primary-color: #C1CFA1;
+    --background: #BC7C7C;
+    --primary-color: #ca8989;
     --secondary-color: #fefae0;
     --accent-color: #EDE8DC;
     --text-color: #EDE8DC;
@@ -50,6 +50,11 @@ h1{
     color: var(--text-color);
     caret-color: var(--accent-color);
 }
+    ::placeholder {
+        color: var(--accent-color);
+        opacity: 1; /* Firefox */
+      }
+
 #todo-input:focus{
     outline: none;
 }
